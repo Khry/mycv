@@ -1,0 +1,70 @@
+body{
+  background-color: #E2E2E2FF;
+  font-size: 18px;
+}
+header, section{
+  margin: 0 10%;
+  clear: both; 
+  position: relative;
+  height: 100%;
+  border-bottom: 2px solid #B7B7B7FF;
+  color: #1A1D1CFF
+}
+header{
+  min-height: 300px;
+}
+header h1{
+  color: #1C5D27FF
+}
+.foto{
+  max-width: 300px;
+  height: auto;
+  float: left;
+  margin:10px;
+}
+header div{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  max-width: 400px;
+  text-align: right; 
+}
+section{
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+.main{
+  grid-column: 1;
+}
+.info{
+  grid-column:2;
+}
+.part{
+  width: 50%;
+  float: left;
+}
+.skills p{
+  color: #1C5D27FF
+}
+.expirience .full{
+  width:100%;
+}
+.expirience .part1{
+  width:64%;
+}
+.expirience .part2{
+  width:35%;
+}
+.expirience p{
+  clear: both;
+  text-align: center;
+
+  font-size: 1.1em;
+}
+.main{
+  text-align: center;
+  color: #1C5D27FF;
+  font-size: 1.2em;
+}
+
